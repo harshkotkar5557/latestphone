@@ -64,7 +64,7 @@ export default function App() {
         ))}
       </div>
       <hr />
-      <div >
+      <div className='result_section' >
         <ul >
           {latestPhone[selectedCompany].map((phone) => (
             <li
@@ -76,6 +76,16 @@ export default function App() {
           ))}
         </ul>
       </div>
+      <section class="footer">
+        <p>hareshkotkar</p>
+        <ul>
+            <li><a href="https://github.com/harshkotkar5557" alt="#"><i class="fab fa-github">&nbsp;Github</i></a></li>
+            <li><a href="https://twitter.com/KotkarHaresh" alt="#"><i class="fab fa-linkedin">&nbsp;LinkedIn</i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/harsh-kotkar-389a08139/" alt="#"><i
+                        class="fab fa-twitter">&nbsp;Twitter</i></a></li>
+        </ul>
+    </section>
     </div>
   );
 }

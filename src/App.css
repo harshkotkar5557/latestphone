@@ -22,7 +22,7 @@
   padding: 0 0.5rem;
 }
 
-ul li{
+.result_section ul li{
   padding: 1rem;
   margin: 1rem auto;
   list-style: none;
@@ -31,7 +31,33 @@ ul li{
   width: 70%;
   min-width: 250px;
 }
-.title{
+.result_section .title{
   font-size: 1.2rem;
   font-weight: 700;
+}
+.footer{
+  position: absolute;
+  bottom: 5%;
+  margin: 0 auto;
+  width: 100%;
+  background-color:transparent;
+}
+.footer p{
+  text-align: center;
+  color: black;
+}
+.footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.footer ul li{
+  padding: 1.2rem 1rem;
+  list-style-type: none;
+ 
+}
+.footer ul li a{
+  color: black;
+  text-decoration: none;
 }
