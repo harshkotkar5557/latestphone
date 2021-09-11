@@ -21,6 +21,9 @@
   margin: 0 0.5rem;
   padding: 0 0.5rem;
 }
+.button_container button:hover{
+  transform: scale(1.1);
+}
 
 .result_section ul li{
   padding: 1rem;
