@@ -8,33 +8,46 @@ export default function App() {
 
   const latestPhone = {
   iPhone: [
-    { name: "iphone 12", rating: "4.5/5" },
-    { name: "iphone 12 Pro", rating: "4/5" },
-    { name: "iphone 12 Max", rating: "5/5" }
+    { name: "iphone 12", 
+      rating: "4.5/5" ,
+      description:"15.49 cm (6.1 inch) Super Retina XDR Display ,A14 Bionic Chip with Next Generation Neural Engine Processor"
+   },
+    { name: "iphone 12 Pro", 
+    rating: "4/5" ,
+    description:"6.1-inch (15.5 cm diagonal) Super Retina XDR display ,A14 Bionic chip, the fastest chip ever in a smartphone"},
+    { name: "iphone 12 Max", 
+    rating: "5/5",
+    description:"6.7-inch (17 cm diagonal) Super Retina XDR display ,A14 Bionic chip, the fastest chip ever in a smartphone"
+   }
   ],
 
   oneplus: [
     {
       name: "Oneplus 9 Pro",
-      rating: "4.5/5"
+      rating: "4.5/5",
+      description:"6.7 Inches Fluid AMOLED Display with 120Hz refresh rate with ,Qualcomm Snapdragon 888 Processor with Adreno 660 GPU"
     },
     {
       name: "Oneplus 9",
-      rating: "4/5"
+      rating: "4/5",
+      description:"6.55 Inches Fluid AMOLED Display with 120Hz refresh rate ,Qualcomm Snapdragon 888 Processor with Adreno 660 GPU"
     },
     {
       name: "Oneplus 9R ",
-      rating: "4.5/5"
+      rating: "4.5/5",
+      description:"6.55 Inches Fluid AMOLED display with 120 Hz of Refresh rate ,Qualcomm Snapdragon 870 5G with upgraded Qualcomm Kryo 585 CPU"
     }
   ],
   samsung: [
     {
       name: "Galaxy Z Fold3",
-      rating: "3.5/5"
+      rating: "3.5/5",
+      description:" 15.82cm (6.2”) dynamic AMOLED 2X  with Adaptive Refresh Rate 60/120Hz,5G Ready powered by Qualcomm Snapdragon 888 Octa-Core processor."
     },
     {
       name: "Galaxy S21 Ultra",
-      rating: "4.5/5"
+      rating: "4.5/5",
+      description:" (6.8-inch) dynamic AMOLED 2X  with Adaptive Refresh Rate 60/120Hz,Android Pie v10.0 operating system with Snapdragon 888 processor."
     }
   ]
 };
@@ -72,6 +85,7 @@ export default function App() {
             >
               <div className='title'> {phone.name} </div>
               <div className='rating'> {phone.rating} </div>
+              <p>{phone.description}</p>
             </li>
           ))}
         </ul>

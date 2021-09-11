@@ -38,6 +38,10 @@
   font-size: 1.2rem;
   font-weight: 700;
 }
+.result_section p,
+.result_section .rating{
+  padding: 0.2rem 0;
+}
 .footer{
   position: absolute;
   bottom: 5%;
