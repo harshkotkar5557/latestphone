@@ -58,6 +58,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <div>
       <div className='heading_container'>
       <h1>Latest 5G phones </h1>
 
@@ -90,6 +91,8 @@ export default function App() {
           ))}
         </ul>
       </div>
+      </div>
+     
       <section class="footer">
         <p>hareshkotkar</p>
         <ul>
