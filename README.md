@@ -1,3 +1,6 @@
+Using this application you can check latest 5G phones
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
