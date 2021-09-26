@@ -1,5 +1,7 @@
 A latest 5G smartphone recommendation app built with ReactJS that shows my favourite phones with respective company name and ratings.
 
+Check out here: https://latestphoneap.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
