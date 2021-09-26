@@ -1,5 +1,4 @@
-Using this application you can check latest 5G phones
-
+A latest 5G smartphone recommendation app built with ReactJS that shows my favourite phones with respective company name and ratings.
 
 # Getting Started with Create React App
 
