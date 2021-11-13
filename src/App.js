@@ -60,7 +60,7 @@ export default function App() {
     <div className="App">
       <div>
       <div className='heading_container'>
-      <h1>Latest 5G phones </h1>
+      <h1>Latest Smart 5G phones </h1>
 
       <p>
         Checkout my favorite phones
